@@ -1,6 +1,8 @@
 # React_MFE
 This app show a demo for React Microfrontends.
 
+![alt text](MFE_Architecture.drawio.png "Architecutre")
+
 # Steps to run the solution locally:
 1. Clone the project
 2. Run the following commands inside Insurance-details folder
