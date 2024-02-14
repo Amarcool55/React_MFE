@@ -4,12 +4,13 @@ import {BrowserRouter, Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import Header from "./Header";
 import Home from "./Home";
+import './index.scss'
 
 const RemoteInsuranceDetailsApp = React.lazy(() => import("insurancedetails/InsuranceDetails"));
 const RemotePaymentApp = React.lazy(() => import("payment/Payment"));
 
 const App = () => {
-  return <div>
+  return <div className="scssClass">
   <Header />
   <Suspense>
       <Routes>
